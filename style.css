@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+main {
+    margin: 0 200px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Montserrat", sans;
+    margin: 50px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Colors Section */
+
+.colors .container div {
+    width: 19%;
+    display: inline-block;
+    margin-top: 30px;
+    height: 100px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.colors .container {
+    padding: 30px 20px;
+}
+
+.color-name {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.hex-code {
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+
+.colors {
+    border: 2px solid #e2e2e2;
+}
+
+.eerie-black {
+    background-color: #262626;
+}
+
+.mandarin {
+    background-color: #FC814A;
+}
+
+.dark-sea-green {
+    background-color: #8DB580;
+}
+
+.battle-ship-grey {
+    background-color: #7E8987;
+}
+
+.frost-white {
+    background-color: #F8F7FF;
+}
+
+.white-text {
+    color: white;
+}
+
+
+
+/* Fonts Section */
+
+.fonts {
+    margin-top: 30px;
+    padding: 30px 20px;
+    border: 2px solid #e2e2e2;
+}
+
+.fonts p {
+    margin-top: 12px;
+}
+
+.font-panel {
+    display: inline-block;
+    margin-left: 40px;
+    width: 30%;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+.fonts .container .roboto {
+    font-family: "Roboto";
+}
+
+.fonts .container .lato {
+    font-family: "Lato";
+}
+
+.fonts .container .montserrat {
+    font-family: "Montserrat";
+}
+
+.fonts .container .bold {
+    font-weight: bold;;
+}
+
+.fonts .container .italic {
+    font-style: italic;
+}
+
+
+
+/* Text Styles Section */
+
+.text-styles {
+    margin-top: 30px;
+    padding: 30px 20px;
+    border: 2px solid #e2e2e2;
+}
+
+.main-page-heading h1 {
+    text-align: left;
+    margin: 23px 0;
+    font-family: "Montserrat";
+}
+
+.subheading h2 {
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Roboto';
+    margin: 20px 0;
+}
+
+.paragraph p {
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
